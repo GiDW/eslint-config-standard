@@ -1,5 +1,9 @@
 # eslint-config-standard
 
+Based on `eslint-config-standard`
+
+## Usage
+
 Add to your `eslintrc`
 
 ```
