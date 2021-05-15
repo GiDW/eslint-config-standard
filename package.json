@@ -33,8 +33,8 @@
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">= 7",
-    "eslint-plugin-import": "^2.23.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-import": ">= 2.22",
+    "eslint-plugin-promise": ">= 4.2"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
