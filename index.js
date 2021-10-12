@@ -224,8 +224,6 @@ module.exports = {
     'no-lone-blocks': 'error',
     'no-loss-of-precision': 'error',
     'no-misleading-character-class': 'error',
-    'no-prototype-builtins': 'error',
-    'no-useless-catch': 'error',
     'no-mixed-operators': [
       'error',
       {
@@ -256,6 +254,7 @@ module.exports = {
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-proto': 'error',
+    'no-prototype-builtins': 'error',
     'no-redeclare': [
       'error',
       {
@@ -319,6 +318,7 @@ module.exports = {
       }
     ],
     'no-useless-call': 'error',
+    'no-useless-catch': 'error',
     'no-useless-computed-key': 'error',
     'no-useless-constructor': 'error',
     'no-useless-escape': 'error',
