@@ -37,9 +37,9 @@
     "eslint-plugin-promise": ">= 4.2"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-plugin-import": "^2.25.1",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint": "^8.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-promise": "^5.1.1"
   },
   "repository": "gitlab:gidw/eslint-config-standard.git",
   "scripts": {
