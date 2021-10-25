@@ -190,7 +190,6 @@ module.exports = {
     'no-dupe-class-members': 'error',
     'no-dupe-keys': 'error',
     'no-duplicate-case': 'error',
-    'no-useless-backreference': 'error',
     'no-empty': [
       'error',
       {
@@ -250,6 +249,7 @@ module.exports = {
     'no-new-object': 'error',
     'no-new-symbol': 'error',
     'no-new-wrappers': 'error',
+    'no-nonoctal-decimal-escape': 'error',
     'no-obj-calls': 'error',
     'no-octal': 'error',
     'no-octal-escape': 'error',
@@ -292,6 +292,7 @@ module.exports = {
     'no-unreachable-loop': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
+    'no-unsafe-optional-chainin': 'error',
     'no-unused-expressions': [
       'error',
       {
@@ -300,6 +301,7 @@ module.exports = {
         allowTaggedTemplates: true
       }
     ],
+    'no-unused-labels': 'error',
     'no-unused-vars': [
       'error',
       {
@@ -317,6 +319,7 @@ module.exports = {
         variables: false
       }
     ],
+    'no-useless-backreference': 'error',
     'no-useless-call': 'error',
     'no-useless-catch': 'error',
     'no-useless-computed-key': 'error',
