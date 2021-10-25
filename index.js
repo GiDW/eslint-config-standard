@@ -292,7 +292,7 @@ module.exports = {
     'no-unreachable-loop': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
-    'no-unsafe-optional-chainin': 'error',
+    'no-unsafe-optional-chaining': 'error',
     'no-unused-expressions': [
       'error',
       {
