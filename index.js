@@ -1,7 +1,6 @@
 module.exports = {
   plugins: [
-    'import',
-    'promise'
+    'import'
   ],
   globals: {
     document: 'readonly',
@@ -477,8 +476,6 @@ module.exports = {
     ],
     'import/no-duplicates': 'error',
     'import/no-named-default': 'error',
-    'import/no-webpack-loader-syntax': 'error',
-
-    'promise/param-names': 'error'
+    'import/no-webpack-loader-syntax': 'error'
   }
 }
