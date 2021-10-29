@@ -39,7 +39,7 @@
     "eslint": "^8.1.0",
     "eslint-plugin-import": "^2.25.2"
   },
-  "repository": "gitlab:gidw/eslint-config-standard.git",
+  "repository": "github:gidw/eslint-config-standard.git",
   "scripts": {
     "lint": "eslint index.js"
   }
