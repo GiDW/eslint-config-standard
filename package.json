@@ -37,10 +37,13 @@
   },
   "devDependencies": {
     "eslint": "^8.19.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
   },
   "repository": "github:gidw/eslint-config-standard.git",
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint --ext .js,.cjs,.mjs,.jsx,.ts,.cts,.mts,.tsx .",
+    "prettier": "prettier -w ."
   }
 }

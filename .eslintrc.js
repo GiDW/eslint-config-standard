@@ -1,9 +1,7 @@
 module.exports = {
-  extends: './index.js',
+  extends: ["./index.js", "prettier"],
   env: {
-    node: true
+    node: true,
   },
-  ignorePatterns: [
-    'node_modules/'
-  ]
-}
+  ignorePatterns: ["node_modules/"],
+};
