@@ -216,13 +216,7 @@ module.exports = {
     ],
     "no-extra-semi": "error",
     "no-extra-parens": ["error", "functions"],
-    "no-fallthrough": [
-      "error",
-      {
-        commentPattern:
-          "[bB][rR][eE][aA][kK][\\s\\w]*[oO][mM][iI][tT][tT][eE][dD]",
-      },
-    ],
+    "no-fallthrough": "error",
     "no-floating-decimal": "error",
     "no-func-assign": "error",
     "no-global-assign": "error",
