@@ -274,12 +274,7 @@ module.exports = {
     "no-octal-escape": "error",
     "no-proto": "error",
     "no-prototype-builtins": "error",
-    "no-redeclare": [
-      "error",
-      {
-        builtinGlobals: false,
-      },
-    ],
+    "no-redeclare": "error",
     "no-regex-spaces": "error",
     "no-return-assign": ["error", "except-parens"],
     "no-self-assign": [
