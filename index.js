@@ -95,6 +95,7 @@ module.exports = {
         after: true,
       },
     ],
+    "getter-return": "error",
     indent: [
       "error",
       2,
@@ -180,6 +181,7 @@ module.exports = {
     "no-compare-neg-zero": "error",
     "no-cond-assign": "error",
     "no-const-assign": "error",
+    "no-constant-binary-expression": "error",
     "no-constant-condition": [
       "error",
       {
@@ -191,6 +193,7 @@ module.exports = {
     "no-delete-var": "error",
     "no-dupe-args": "error",
     "no-dupe-class-members": "error",
+    "no-dupe-else-if": "error",
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
     "no-empty": [
@@ -205,14 +208,27 @@ module.exports = {
     "no-ex-assign": "error",
     "no-extend-native": "error",
     "no-extra-bind": "error",
-    "no-extra-boolean-cast": "error",
+    "no-extra-boolean-cast": [
+      "error",
+      {
+        enforceForLogicalOperands: true,
+      },
+    ],
+    "no-extra-semi": "error",
     "no-extra-parens": ["error", "functions"],
-    "no-fallthrough": "error",
+    "no-fallthrough": [
+      "error",
+      {
+        commentPattern:
+          "[bB][rR][eE][aA][kK][\\s\\w]*[oO][mM][iI][tT][tT][eE][dD]",
+      },
+    ],
     "no-floating-decimal": "error",
     "no-func-assign": "error",
     "no-global-assign": "error",
     "no-implied-eval": "error",
     "no-import-assign": "error",
+    "no-inner-declarations": "error",
     "no-invalid-regexp": "error",
     "no-irregular-whitespace": "error",
     "no-iterator": "error",
@@ -274,6 +290,7 @@ module.exports = {
     ],
     "no-self-compare": "error",
     "no-sequences": "error",
+    "no-setter-return": "error",
     "no-shadow-restricted-names": "error",
     "no-sparse-arrays": "error",
     "no-tabs": "error",
@@ -394,6 +411,7 @@ module.exports = {
         allowTemplateLiterals: false,
       },
     ],
+    "require-yield": "error",
     "rest-spread-spacing": ["error", "never"],
     semi: ["error", "never"],
     "semi-spacing": [
