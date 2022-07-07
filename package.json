@@ -36,8 +36,8 @@
     "eslint-plugin-import": ">= 2.22"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint": "^8.19.0",
+    "eslint-plugin-import": "^2.26.0"
   },
   "repository": "github:gidw/eslint-config-standard.git",
   "scripts": {
